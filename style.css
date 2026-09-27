@@ -1,0 +1,98 @@
+/* =========================================
+   ESTILO DO CATÁLOGO DE FILMES E SÉRIES
+   ========================================= */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #111827;
+    color: #f3f4f6;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+body > h1,
+body > p,
+body > #output {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+body > p {
+    text-align: center;
+    color: #9ca3af;
+    margin-bottom: 30px;
+}
+
+#output {
+    background: #1f2937;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+    border: 1px solid #374151;
+}
+
+#output h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #ffffff;
+}
+
+#output p {
+    background: #111827;
+    padding: 14px 18px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    border-left: 4px solid #e11d48;
+}
+
+#output strong {
+    color: #ffffff;
+}
+
+#output h3 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+#output ol {
+    padding-left: 30px;
+}
+
+#output li {
+    background: #111827;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 25px 12px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    #output {
+        padding: 20px;
+    }
+}
+
+.card h4 {
+    margin-bottom: 15px;
+}
